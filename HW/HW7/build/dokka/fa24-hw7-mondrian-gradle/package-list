@@ -1,0 +1,25 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:////PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/index.html
+$dokka.location://MIN_RECTANGLE_HEIGHT/#/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-m-i-n_-r-e-c-t-a-n-g-l-e_-h-e-i-g-h-t.html
+$dokka.location://MIN_RECTANGLE_WIDTH/#/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-m-i-n_-r-e-c-t-a-n-g-l-e_-w-i-d-t-h.html
+$dokka.location://REQUESTED_CANVAS_HEIGHT/#/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-r-e-q-u-e-s-t-e-d_-c-a-n-v-a-s_-h-e-i-g-h-t.html
+$dokka.location://REQUESTED_CANVAS_WIDTH/#/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-r-e-q-u-e-s-t-e-d_-c-a-n-v-a-s_-w-i-d-t-h.html
+$dokka.location://SEED/#/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-s-e-e-d.html
+$dokka.location://main/#/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/main.html
+$dokka.location:/Canvas.CustomCanvas///PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-canvas/-custom-canvas/index.html
+$dokka.location:/Canvas.CustomCanvas/CustomCanvas/#MondrianPainter#kotlin.Int#kotlin.Int/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-canvas/-custom-canvas/-custom-canvas.html
+$dokka.location:/Canvas.CustomCanvas/addRectangle/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int#java.awt.Color#java.awt.Color/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-canvas/-custom-canvas/add-rectangle.html
+$dokka.location:/Canvas.CustomCanvas/getColorAt/#kotlin.Int#kotlin.Int/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-canvas/-custom-canvas/get-color-at.html
+$dokka.location:/Canvas///PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-canvas/index.html
+$dokka.location:/Canvas/Canvas/#kotlin.String#MondrianPainter#kotlin.Int#kotlin.Int/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-canvas/-canvas.html
+$dokka.location:/Canvas/drawRectangle/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int#java.awt.Color#java.awt.Color/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-canvas/draw-rectangle.html
+$dokka.location:/Canvas/getColorAt/#kotlin.Int#kotlin.Int/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-canvas/get-color-at.html
+$dokka.location:/MondrianPainter///PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-mondrian-painter/index.html
+$dokka.location:/MondrianPainter/MondrianPainter/#/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-mondrian-painter/-mondrian-painter.html
+$dokka.location:/MondrianPainter/doMondrian/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-mondrian-painter/do-mondrian.html
+$dokka.location:/MondrianPainter/handleClick/#kotlin.Int#kotlin.Int/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-mondrian-painter/handle-click.html
+$dokka.location:/MyMondrianPainter///PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-my-mondrian-painter/index.html
+$dokka.location:/MyMondrianPainter/MyMondrianPainter/#/PointingToDeclaration/fa24-hw7-mondrian-gradle/[root]/-my-mondrian-painter/-my-mondrian-painter.html
+
+

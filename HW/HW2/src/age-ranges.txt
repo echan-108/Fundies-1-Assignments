@@ -1,0 +1,5 @@
+child min age 13
+adult min age 18
+adult half age 32
+middleage min age 45
+senior min age 65

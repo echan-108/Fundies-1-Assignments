@@ -1,0 +1,213 @@
+    fun testDiet1() {
+        assertEquals(Ad.Diet, fetchAd(Gender.Male, 13, 0))
+        assertEquals(Ad.Diet, fetchAd(Gender.Male, 13, 19999))
+        assertEquals(Ad.Diet, fetchAd(Gender.Male, 13, 9999))
+        assertEquals(Ad.Diet, fetchAd(Gender.Male, 65, 0))
+        assertEquals(Ad.Diet, fetchAd(Gender.Male, 65, 19999))
+        assertEquals(Ad.Diet, fetchAd(Gender.Male, 65, 9999))
+        assertEquals(Ad.Diet, fetchAd(Gender.Male, 39, 0))
+        assertEquals(Ad.Diet, fetchAd(Gender.Male, 39, 19999))
+        assertEquals(Ad.Diet, fetchAd(Gender.Male, 39, 9999))
+    }
+
+
+    fun testDating2() {
+        assertEquals(Ad.Dating, fetchAd(Gender.Male, 18, 20000))
+        assertEquals(Ad.Dating, fetchAd(Gender.Male, 18, 39999))
+        assertEquals(Ad.Dating, fetchAd(Gender.Male, 18, 29999))
+        assertEquals(Ad.Dating, fetchAd(Gender.Male, 65, 20000))
+        assertEquals(Ad.Dating, fetchAd(Gender.Male, 65, 39999))
+        assertEquals(Ad.Dating, fetchAd(Gender.Male, 65, 29999))
+        assertEquals(Ad.Dating, fetchAd(Gender.Male, 41, 20000))
+        assertEquals(Ad.Dating, fetchAd(Gender.Male, 41, 39999))
+        assertEquals(Ad.Dating, fetchAd(Gender.Male, 41, 29999))
+    }
+
+
+    fun testLego3() {
+        assertEquals(Ad.Lego, fetchAd(Gender.Male, 13, 40000))
+        assertEquals(Ad.Lego, fetchAd(Gender.Male, 13, 59999))
+        assertEquals(Ad.Lego, fetchAd(Gender.Male, 13, 49999))
+        assertEquals(Ad.Lego, fetchAd(Gender.Male, 32, 40000))
+        assertEquals(Ad.Lego, fetchAd(Gender.Male, 32, 59999))
+        assertEquals(Ad.Lego, fetchAd(Gender.Male, 32, 49999))
+        assertEquals(Ad.Lego, fetchAd(Gender.Male, 22, 40000))
+        assertEquals(Ad.Lego, fetchAd(Gender.Male, 22, 59999))
+        assertEquals(Ad.Lego, fetchAd(Gender.Male, 22, 49999))
+    }
+
+
+    fun testPet4() {
+        assertEquals(Ad.Pet, fetchAd(Gender.Male, 13, 60000))
+        assertEquals(Ad.Pet, fetchAd(Gender.Male, 13, 99999))
+        assertEquals(Ad.Pet, fetchAd(Gender.Male, 13, 79999))
+        assertEquals(Ad.Pet, fetchAd(Gender.Male, 80, 60000))
+        assertEquals(Ad.Pet, fetchAd(Gender.Male, 80, 99999))
+        assertEquals(Ad.Pet, fetchAd(Gender.Male, 80, 79999))
+        assertEquals(Ad.Pet, fetchAd(Gender.Male, 46, 60000))
+        assertEquals(Ad.Pet, fetchAd(Gender.Male, 46, 99999))
+        assertEquals(Ad.Pet, fetchAd(Gender.Male, 46, 79999))
+    }
+
+
+    fun testPetToy5() {
+        assertEquals(Ad.PetToy, fetchAd(Gender.Male, 13, 100000))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Male, 13, 999999))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Male, 13, 549999))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Male, 80, 100000))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Male, 80, 999999))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Male, 80, 549999))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Male, 46, 100000))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Male, 46, 999999))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Male, 46, 549999))
+    }
+
+
+    fun testPokemon6() {
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Female, 13, 0))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Female, 13, 19999))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Female, 13, 9999))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Female, 32, 0))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Female, 32, 19999))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Female, 32, 9999))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Female, 22, 0))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Female, 22, 19999))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Female, 22, 9999))
+    }
+
+
+    fun testRetirement7() {
+        assertEquals(Ad.Retirement, fetchAd(Gender.Female, 32, 20000))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Female, 32, 39999))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Female, 32, 29999))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Female, 45, 20000))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Female, 45, 39999))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Female, 45, 29999))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Female, 38, 20000))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Female, 38, 39999))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Female, 38, 29999))
+    }
+
+
+    fun testWork8() {
+        assertEquals(Ad.Work, fetchAd(Gender.Female, 18, 40000))
+        assertEquals(Ad.Work, fetchAd(Gender.Female, 18, 59999))
+        assertEquals(Ad.Work, fetchAd(Gender.Female, 18, 49999))
+        assertEquals(Ad.Work, fetchAd(Gender.Female, 45, 40000))
+        assertEquals(Ad.Work, fetchAd(Gender.Female, 45, 59999))
+        assertEquals(Ad.Work, fetchAd(Gender.Female, 45, 49999))
+        assertEquals(Ad.Work, fetchAd(Gender.Female, 31, 40000))
+        assertEquals(Ad.Work, fetchAd(Gender.Female, 31, 59999))
+        assertEquals(Ad.Work, fetchAd(Gender.Female, 31, 49999))
+    }
+
+
+    fun testDiet9() {
+        assertEquals(Ad.Diet, fetchAd(Gender.Female, 13, 60000))
+        assertEquals(Ad.Diet, fetchAd(Gender.Female, 13, 99999))
+        assertEquals(Ad.Diet, fetchAd(Gender.Female, 13, 79999))
+        assertEquals(Ad.Diet, fetchAd(Gender.Female, 65, 60000))
+        assertEquals(Ad.Diet, fetchAd(Gender.Female, 65, 99999))
+        assertEquals(Ad.Diet, fetchAd(Gender.Female, 65, 79999))
+        assertEquals(Ad.Diet, fetchAd(Gender.Female, 39, 60000))
+        assertEquals(Ad.Diet, fetchAd(Gender.Female, 39, 99999))
+        assertEquals(Ad.Diet, fetchAd(Gender.Female, 39, 79999))
+    }
+
+
+    fun testDating10() {
+        assertEquals(Ad.Dating, fetchAd(Gender.Female, 18, 100000))
+        assertEquals(Ad.Dating, fetchAd(Gender.Female, 18, 999999))
+        assertEquals(Ad.Dating, fetchAd(Gender.Female, 18, 549999))
+        assertEquals(Ad.Dating, fetchAd(Gender.Female, 65, 100000))
+        assertEquals(Ad.Dating, fetchAd(Gender.Female, 65, 999999))
+        assertEquals(Ad.Dating, fetchAd(Gender.Female, 65, 549999))
+        assertEquals(Ad.Dating, fetchAd(Gender.Female, 41, 100000))
+        assertEquals(Ad.Dating, fetchAd(Gender.Female, 41, 999999))
+        assertEquals(Ad.Dating, fetchAd(Gender.Female, 41, 549999))
+    }
+
+
+    fun testLego11() {
+        assertEquals(Ad.Lego, fetchAd(Gender.Nonbinary, 13, 0))
+        assertEquals(Ad.Lego, fetchAd(Gender.Nonbinary, 13, 19999))
+        assertEquals(Ad.Lego, fetchAd(Gender.Nonbinary, 13, 9999))
+        assertEquals(Ad.Lego, fetchAd(Gender.Nonbinary, 32, 0))
+        assertEquals(Ad.Lego, fetchAd(Gender.Nonbinary, 32, 19999))
+        assertEquals(Ad.Lego, fetchAd(Gender.Nonbinary, 32, 9999))
+        assertEquals(Ad.Lego, fetchAd(Gender.Nonbinary, 22, 0))
+        assertEquals(Ad.Lego, fetchAd(Gender.Nonbinary, 22, 19999))
+        assertEquals(Ad.Lego, fetchAd(Gender.Nonbinary, 22, 9999))
+    }
+
+
+    fun testPet12() {
+        assertEquals(Ad.Pet, fetchAd(Gender.Nonbinary, 13, 20000))
+        assertEquals(Ad.Pet, fetchAd(Gender.Nonbinary, 13, 39999))
+        assertEquals(Ad.Pet, fetchAd(Gender.Nonbinary, 13, 29999))
+        assertEquals(Ad.Pet, fetchAd(Gender.Nonbinary, 80, 20000))
+        assertEquals(Ad.Pet, fetchAd(Gender.Nonbinary, 80, 39999))
+        assertEquals(Ad.Pet, fetchAd(Gender.Nonbinary, 80, 29999))
+        assertEquals(Ad.Pet, fetchAd(Gender.Nonbinary, 46, 20000))
+        assertEquals(Ad.Pet, fetchAd(Gender.Nonbinary, 46, 39999))
+        assertEquals(Ad.Pet, fetchAd(Gender.Nonbinary, 46, 29999))
+    }
+
+
+    fun testPetToy13() {
+        assertEquals(Ad.PetToy, fetchAd(Gender.Nonbinary, 13, 40000))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Nonbinary, 13, 59999))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Nonbinary, 13, 49999))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Nonbinary, 80, 40000))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Nonbinary, 80, 59999))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Nonbinary, 80, 49999))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Nonbinary, 46, 40000))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Nonbinary, 46, 59999))
+        assertEquals(Ad.PetToy, fetchAd(Gender.Nonbinary, 46, 49999))
+    }
+
+
+    fun testPokemon14() {
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Nonbinary, 13, 60000))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Nonbinary, 13, 99999))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Nonbinary, 13, 79999))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Nonbinary, 32, 60000))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Nonbinary, 32, 99999))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Nonbinary, 32, 79999))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Nonbinary, 22, 60000))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Nonbinary, 22, 99999))
+        assertEquals(Ad.Pokemon, fetchAd(Gender.Nonbinary, 22, 79999))
+    }
+
+
+    fun testRetirement15() {
+        assertEquals(Ad.Retirement, fetchAd(Gender.Nonbinary, 32, 100000))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Nonbinary, 32, 999999))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Nonbinary, 32, 549999))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Nonbinary, 45, 100000))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Nonbinary, 45, 999999))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Nonbinary, 45, 549999))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Nonbinary, 38, 100000))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Nonbinary, 38, 999999))
+        assertEquals(Ad.Retirement, fetchAd(Gender.Nonbinary, 38, 549999))
+    }
+
+
+    fun testAll() {
+        testDiet1()
+        testDating2()
+        testLego3()
+        testPet4()
+        testPetToy5()
+        testPokemon6()
+        testRetirement7()
+        testWork8()
+        testDiet9()
+        testDating10()
+        testLego11()
+        testPet12()
+        testPetToy13()
+        testPokemon14()
+        testRetirement15()
+        print("All tests pass.")
+    }

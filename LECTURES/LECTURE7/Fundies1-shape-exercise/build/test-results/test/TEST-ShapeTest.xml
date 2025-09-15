@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ShapeTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-10-17T18:33:28" hostname="SINKINGORBMOBILE" time="0.03">
+  <properties/>
+  <testcase name="testCircleArea()" classname="ShapeTest" time="0.021"/>
+  <testcase name="testCircleToString()" classname="ShapeTest" time="0.005"/>
+  <testcase name="testCirclePerimeter()" classname="ShapeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
